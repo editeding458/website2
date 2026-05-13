@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tanuja Shastri Portfolio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Instrument+Serif:italic@0;1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,7 +14,7 @@
     <header>
         <div class="logo">TANUJA SHASTRI</div>
         <div class="status-pill">
-            <span class="blue-dot"></span> Linear
+            <a href="experimental.html"><span class="blue-dot"></span> Linear</a>
         </div>
         <div class="header-right">
             <span class="time">23:32:51 PST</span>
@@ -35,7 +37,6 @@
                     </svg>
                 </div>
             </div>
-
             <div class="about-content">
                 <p class="main-para">
                     I'm <em>Tanuja</em>, Developer by training, designer by obsession. I spent two years doing both at once before I took the leap. I am still taking it.
@@ -43,14 +44,13 @@
                 <p class="main-para">
                     Developing taught me constraints. Art taught me instinct. UX is where I stopped choosing between them and started using the tension to find better answers.
                 </p>
-                
                 <div class="about-link">
                     About <span class="arrow">›</span>
                 </div>
             </div>
         </section>
 
-        <section class="projects-section">
+        <section id="work" class="projects-section">
             <div class="projects-header">
                 <h2 class="title-text">Projects <span>(05)</span></h2>
             </div>
@@ -62,17 +62,15 @@
                         <span class="year">2024</span>
                         <h3>SuperReply: MVP for an Instagram engagement platform</h3>
                         <p>Designed an Instagram automation platform for creators and small businesses, driving ₹10,00,000+ in first-quarter revenue.</p>
-                        
                         <div class="meta-data">
-                            <div class="meta-item"><span>Discipline</span> <span>Product Design</span></div>
-                            <div class="meta-item"><span>My Role</span> <span>Solo Designer</span></div>
-                            <div class="meta-item"><span>Timeline</span> <span>6 Weeks</span></div>
+                            <div class="meta-item"><span>Discipline</span><span>Product Design</span></div>
+                            <div class="meta-item"><span>My Role</span><span>Solo Designer</span></div>
+                            <div class="meta-item"><span>Timeline</span><span>6 Weeks</span></div>
                         </div>
-
                         <button class="case-study-btn">Case study ↗</button>
                     </div>
                     <div class="project-visual">
-                        <img src="https://via.placeholder.com/800x600/1a1a1a/ffffff?text=Project+1+Mockup" alt="Project Image">
+                        <img src="https://picsum.photos/id/20/800/600" alt="Project Image">
                     </div>
                 </div>
             </div>
@@ -84,121 +82,111 @@
                         <span class="year">2023</span>
                         <h3>NexGen UI: Future of Dashboard Design</h3>
                         <p>A comprehensive design system for enterprise-level data visualization and user management.</p>
-                        
                         <div class="meta-data">
-                            <div class="meta-item"><span>Discipline</span> <span>UI/UX Design</span></div>
-                            <div class="meta-item"><span>My Role</span> <span>Lead Designer</span></div>
-                            <div class="meta-item"><span>Timeline</span> <span>8 Weeks</span></div>
+                            <div class="meta-item"><span>Discipline</span><span>UI/UX Design</span></div>
+                            <div class="meta-item"><span>My Role</span><span>Lead Designer</span></div>
+                            <div class="meta-item"><span>Timeline</span><span>8 Weeks</span></div>
                         </div>
-
                         <button class="case-study-btn">Case study ↗</button>
                     </div>
-                    <div class="project-visual" style="background-color: #2a2a2a;">
-                        <img src="https://via.placeholder.com/800x600/2a2a2a/ffffff?text=Project+2+Mockup" alt="Project Image">
+                    <div class="project-visual">
+                        <img src="https://picsum.photos/id/26/800/600" alt="Project Image">
                     </div>
                 </div>
             </div>
-              <div class="project-card">
+
+            <div class="project-card">
                 <div class="project-number">03</div>
                 <div class="project-content">
                     <div class="project-info">
                         <span class="year">2023</span>
-                        <h3>NexGen UI: Future of Dashboard Design</h3>
-                        <p>A comprehensive design system for enterprise-level data visualization and user management.</p>
-                        
+                        <h3>EcoChain: Sustainable Supply Chain Dashboard</h3>
+                        <p>Carbon tracking and logistics optimization platform for eco-conscious enterprises.</p>
                         <div class="meta-data">
-                            <div class="meta-item"><span>Discipline</span> <span>UI/UX Design</span></div>
-                            <div class="meta-item"><span>My Role</span> <span>Lead Designer</span></div>
-                            <div class="meta-item"><span>Timeline</span> <span>8 Weeks</span></div>
+                            <div class="meta-item"><span>Discipline</span><span>Product Design</span></div>
+                            <div class="meta-item"><span>My Role</span><span>Lead Designer</span></div>
+                            <div class="meta-item"><span>Timeline</span><span>10 Weeks</span></div>
                         </div>
-
                         <button class="case-study-btn">Case study ↗</button>
                     </div>
-                    <div class="project-visual" style="background-color: #2a2a2a;">
-                        <img src="https://via.placeholder.com/800x600/2a2a2a/ffffff?text=Project+2+Mockup" alt="Project Image">
+                    <div class="project-visual">
+                        <img src="https://picsum.photos/id/29/800/600" alt="Project Image">
                     </div>
                 </div>
             </div>
-              <div class="project-card">
+
+            <div class="project-card">
                 <div class="project-number">04</div>
                 <div class="project-content">
                     <div class="project-info">
-                        <span class="year">2023</span>
-                        <h3>NexGen UI: Future of Dashboard Design</h3>
-                        <p>A comprehensive design system for enterprise-level data visualization and user management.</p>
-                        
+                        <span class="year">2022</span>
+                        <h3>MediFlow: Patient Intake System Redesign</h3>
+                        <p>Reducing wait times and friction in healthcare registration through thoughtful UX.</p>
                         <div class="meta-data">
-                            <div class="meta-item"><span>Discipline</span> <span>UI/UX Design</span></div>
-                            <div class="meta-item"><span>My Role</span> <span>Lead Designer</span></div>
-                            <div class="meta-item"><span>Timeline</span> <span>8 Weeks</span></div>
+                            <div class="meta-item"><span>Discipline</span><span>UX Research</span></div>
+                            <div class="meta-item"><span>My Role</span><span>Solo Designer</span></div>
+                            <div class="meta-item"><span>Timeline</span><span>12 Weeks</span></div>
                         </div>
-
                         <button class="case-study-btn">Case study ↗</button>
                     </div>
-                    <div class="project-visual" style="background-color: #2a2a2a;">
-                        <img src="https://via.placeholder.com/800x600/2a2a2a/ffffff?text=Project+2+Mockup" alt="Project Image">
+                    <div class="project-visual">
+                        <img src="https://picsum.photos/id/34/800/600" alt="Project Image">
                     </div>
                 </div>
             </div>
- <div class="project-card">
+
+            <div class="project-card">
                 <div class="project-number">05</div>
                 <div class="project-content">
                     <div class="project-info">
-                        <span class="year">2023</span>
-                        <h3>NexGen UI: Future of Dashboard Design</h3>
-                        <p>A comprehensive design system for enterprise-level data visualization and user management.</p>
-                        
+                        <span class="year">2022</span>
+                        <h3>Bloom: Mental Wellness App for Gen Z</h3>
+                        <p>Daily check-ins and guided journals designed to support emotional wellbeing.</p>
                         <div class="meta-data">
-                            <div class="meta-item"><span>Discipline</span> <span>UI/UX Design</span></div>
-                            <div class="meta-item"><span>My Role</span> <span>Lead Designer</span></div>
-                            <div class="meta-item"><span>Timeline</span> <span>8 Weeks</span></div>
+                            <div class="meta-item"><span>Discipline</span><span>Mobile Design</span></div>
+                            <div class="meta-item"><span>My Role</span><span>Lead Designer</span></div>
+                            <div class="meta-item"><span>Timeline</span><span>8 Weeks</span></div>
                         </div>
-
                         <button class="case-study-btn">Case study ↗</button>
                     </div>
-                    <div class="project-visual" style="background-color: #2a2a2a;">
-                        <img src="https://via.placeholder.com/800x600/2a2a2a/ffffff?text=Project+2+Mockup" alt="Project Image">
+                    <div class="project-visual">
+                        <img src="https://picsum.photos/id/36/800/600" alt="Project Image">
                     </div>
                 </div>
             </div>
         </section>
-   
-<section class="testimonials-section">
+
+        <section class="testimonials-section">
             <h2 class="testimonial-title">Apparently, I'm <span class="fun-italic">fun</span> <br> to work with!</h2>
-            
             <div class="testimonial-container">
                 <div class="quote-icon left">“</div>
-                
                 <div class="testimonial-item">
                     <p class="quote-text">Tanuja has an exceptional ability to bring clarity and life to ambiguous ideas, turning them into beneficial products. She is highly resourceful and well-connected in her field.</p>
                     <p class="author">Founder (SuperReply) <br> <span>Anshuman Aggarwal</span></p>
                 </div>
-
                 <div class="testimonial-item">
                     <p class="quote-text">Tanuja's ability to understand and translate the needs of clients and colleagues into visually captivating designs is truly commendable.</p>
                     <p class="author">Growth Manager (NexGen) <br> <span>Priyanka Rao</span></p>
                 </div>
-
                 <div class="quote-icon right">”</div>
             </div>
-
             <div class="marquee">
                 <div class="marquee-content">
                     Don't be shy, connect on LinkedIn • Don't be shy, connect on LinkedIn • Don't be shy, connect on LinkedIn • Don't be shy, connect on LinkedIn •
                 </div>
             </div>
         </section>
-  <section class="experience-section">
+
+        <section class="experience-section">
             <div class="exp-header">
                 <div class="exp-badge">I am a current <strong>HCIM masters student @UMD</strong>, College Park</div>
                 <h2 class="exp-title">Where <br> I've been</h2>
                 <div class="blue-arrow-curve">
-                    <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg width="80" height="80" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10 10C10 10 80 10 80 80M80 80L70 70M80 80L90 70" stroke="#1a00ff" stroke-width="2" stroke-linecap="round"/>
                     </svg>
                 </div>
             </div>
-
             <div class="exp-list">
                 <div class="exp-item">
                     <span class="company">The Peaces Collective</span>
@@ -216,36 +204,47 @@
                     <span class="date">2024</span>
                 </div>
             </div>
-            
             <button class="resume-large-btn">View Resume ↓</button>
         </section>
-        <section class="footer-section">
-            <div class="marquee-container">
-              
-            </div>
 
-            <div class="footer-bottom">
-                <div class="social-links">
-                    <a href="#">LinkedIn</a>
-                    <a href="#">Twitter</a>
-                    <a href="#">Dribbble</a>
-                    <a href="#">Instagram</a>
-                </div>
-                <div class="footer-copy">
-                    Designed & Built by Tanuja Shastri © 2026
+        <footer class="final-footer">
+            <div class="footer-cta">
+                <span class="still-here">Still here?</span>
+                <div class="work-with-me">
+                    Work with <em>me.</em>
+                    <div class="i-know-badge">
+                        I know you want to
+                        <svg class="curved-arrow" width="40" height="30" viewBox="0 0 40 30">
+                            <path d="M5 25 Q 10 5 35 5 M 35 5 L 25 10 M 35 5 L 30 15" stroke="white" fill="none" stroke-width="2"/>
+                        </svg>
+                    </div>
                 </div>
             </div>
-        </section>
+            <div class="footer-links-center">
+                <a href="mailto:tenoojmakesart@gmail.com">Email</a>
+                <a href="#">LinkedIn</a>
+                <a href="#" class="handle">tenoojmakesart</a>
+            </div>
+            <div class="footer-bottom-row">
+                <div class="copyright">© 2025 | Definitely not my first draft.</div>
+                <div class="footer-nav-pills">
+                    <button>Work</button>
+                    <button>About</button>
+                    <button>Play</button>
+                    <button class="desktop-btn">Show desktop</button>
+                </div>
+            </div>
+        </footer>
 
-    <nav class="bottom-nav">
-        <div class="nav-container">
-            <button class="close-btn">×</button>
-            <a href="#">Work</a>
-            <a href="#">Play</a>
-            <a href="#">About</a>
-            <a href="#">Resume</a>
-        </div>
-    </nav>
-     </main>
+        <nav class="bottom-nav">
+            <div class="nav-container">
+                <button class="close-btn">×</button>
+                <a href="#work">Work</a>
+                <a href="#">Play</a>
+                <a href="#">About</a>
+                <a href="#">Resume</a>
+            </div>
+        </nav>
+    </main>
 </body>
 </html>
